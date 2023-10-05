@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="logo">
+                Sara.
+            </a>
+            <div class="menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="navitems">
+                        <a href="#home" class="navlinks active-link">
+                            <i class="ri-home-2-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="navitems">
+                        <a href="#new" class="navlinks">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>New</span>
+                        </a>
+                    </li>
+                    <li class="navitems">
+                        <a href="#collection" class="navlinks">
+                            <i class="ri-compass-3-line"></i>
+                            <span>Collection</span>
+                        </a>
+                    </li>
+                    <li class="navitems">
+                        <a href="#products" class="navlinks">
+                            <i class="ri-t-shirt-2-line"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- dark mode button -->
+            <i class="ri-moon-fill change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home-conatiner container grid">
+                <div class="home-data">
+                    <h1 class="home-title">
+                        New Collection <br>
+                        Collection
+                    </h1>
+                    <p class="home-description">
+                        The new collection of clothing from <br>
+                        the best brands this year.
+                    </p>
+                    <a href="#new" class="btn-link">
+                        Explore
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <div class="home-image">
+                    <img src="img.jpeg" alt="home image">
+                    <img src="img5.jpeg" alt="home image">
+                </div>
+            </div>
+        </section>
+        <section class="new section" id="new">
+            <h2 class="section__title">New Categories</h2>
+            <div class="new__container container grid">
+                <artical class="new-card">
+                <img src="img3.jpeg" alt="Product image" class="new-image">
+                <a href="#" class="new-link">
+                    <div class="new-data">
+                        <h2 class="new-title">
+                            Hoddie & Sweatshirt
+                        </h2>
+                        <span class="new-subtitle">
+                            Winter Collection
+                        </span>
+                    </div>
+                    <i class="ri-arrow-right-line"></i>
+                    
+                </a>
+            </artical>
+            <artical class=" new-card">
+                <img src="img7.jpeg" alt="Product image" class="new-image">
+                <a href="#" class="new-link">
+                    <div class="new-data">
+                        <h2 class="new-title">
+                            Pants and Jackets
+                        </h2>
+                        <span class="new-subtitle">
+                            Winter Collection
+                        </span>
+                    </div>
+                    <i class="ri-arrow-right-line"></i>
+                    
+                </a>
+            </artical>
+            <artical class=" new-card">
+                <img src="img2.jpeg" alt="Product image" class="new-image">
+                <a href="#" class="new-link">
+                    <div class="new-data">
+                        <h2 class="new-title">
+                            Coats and Coat Set
+                        </h2>
+                        <span class="new-subtitle">
+                            Winter Collection
+                        </span>
+                    </div>
+                    <i class="ri-arrow-right-line"></i>
+                    
+                </a>
+            </artical>
+        </div>
+    </section>
+    <section class="collection section" id="collection">
+        <div class="collection-container container">
+            <div class="collection-explore">
+                <div class="collection-data-men">
+                    <h2 class="collection-title">
+                        Mens <br>
+                        Collections
+                    </h2>
+                    <a href="#" class="btn-link">
+                        Explore Outfits
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <img src="img6.jpeg" alt="collection image">
+            </div>
+            <div class="collection-explore">
+                <div class="collection-data-women">
+                    <img src="img9.jpeg" alt="collection image">
+                    <h2 class="collection-title">
+                        Womens <br>
+                        Collections
+                    </h2>
+                    <a href="#" class="btn-link">
+                        Explore Outfits
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products section" id="products">
+        <h2 class="section__title">
+            Best Products
+        </h2>
+        <div class="products__container container swiper mySwiper">
+            <div class="swiper-wrapper">
+                
+                
+                <article class="products__card swiper-slide">
+                    <img src="product1.jpeg" alt="Product image" class="products__img">
+                    <h2 class="proudct__title">
+                        Black  Coat
+                    </h2>
+                    <span class="product__price">
+                        $130.99
+                    </span>
+                </article>
+                
+                <article class="products__card swiper-slide">
+                    <img src="product2.jpeg" alt="Product image" class="products__img">
+                    <h2 class="proudct__title">
+                        Black and cream Shirt and Pant
+                    </h2>
+                    <span class="product__price">
+                        $54.99
+                    </span>
+                </article>
+                
+                <article class="products__card swiper-slide">
+                    <img src="product3.jpeg" alt="Product image" class="products__img">
+                    <h2 class="proudct__title">
+                        Black Sweatshirt
+                    </h2>
+                    <span class="product__price">
+                        $67.99
+                    </span>
+                </article>
+                
+                <article class="products__card swiper-slide">
+                    <img src="product4.jpeg" alt="Product image" class="products__img">
+                    <h2 class="proudct__title">
+                        Demin Jacket
+                    </h2>
+                    <span class="product__price">
+                        $78.99 
+                    </span>
+                </article>
+                
+            </div>
+            <div class="swiper-button-next">
+                <i class="ri-arrow-right-line"></i>
+                
+            </div>
+            <div class="swiper-button-prev">
+                <i class="ri-arrow-left-line"></i>
+                
+            </div>
+        </div>
+        
+    </section>
+    <section class="brand section">
+        <h2 class="section__title">
+            Brands We Sell
+        </h2>
+        <div class="brand-container container grid">
+            <img src="brand1.jpeg" alt="Logo img" class="brand-image">
+            <img src="brand2.jpeg" alt="Logo img" class="brand-image">
+            <img src="brand3.jpeg" alt="Logo img" class="brand-image">
+            <img src="brand4.jpeg" alt="Logo img" class="brand-image">
+        </div>
+    </section>
+</main>
+<footer class="footer section">
+    <div class="footer-container container grid">
+        <div>
+            <a href="#" class="footer-logo">Sara</a>
+            <p class="footer-descripton">
+                Committed to bringing you the <br>
+                best clothing collection from popular <br>
+                brands.
+            </p>
+        </div>
+        <div class="footer-content">
+            <div>
+                <h3 class="footer-title">
+                    Company
+                </h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#" class="footer-link">Shop</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Category</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Contact info</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer-title">
+                    Blog
+                </h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#" class="footer-link">Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Popular news</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Recent news</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer-title">
+                    Office
+                </h3>
+               <p class="footer-info">
+                Monday - Saturday <br>
+                9AM - 10PM
+               </p>
+            </div>
+
+            <div>
+                <h3 class="footer-title">
+                    Contact us
+                </h3>
+                <ul class="footer-social">
+                   <a href="https://www.facebook.com/" target="_blank" class="footer-social-link">
+                    <i class="ri-facebook-fill"></i>
+                   </a>
+                   <a href="https://www.instagram.com/" target="_blank" class="footer-social-link">
+                    <i class="ri-instagram-line"></i>
+                   </a>
+                   <a href="https://www.whatsapp.com" target="_blank" class="footer-social-link">
+                    <i class="ri-whatsapp-line"></i>
+                   </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-information conatiner">
+        <span class="footer-copy">
+            &#169; Dev-ansh corporation. All rights reserved
+        </span>
+        <a href="#" class="footer-privacy"> Terms & Conditions</a>
+    </div>
+</footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
